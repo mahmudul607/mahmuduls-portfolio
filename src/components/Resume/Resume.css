@@ -1,0 +1,9 @@
+#Resume .education-work-skills .my-education, #Resume .education-work-skills .my-experience{
+    width: 50%;
+    color: white;
+    text-align: left;
+    padding: 5%;
+}
+#Resume .education-work-skills{
+    display: flex;
+}

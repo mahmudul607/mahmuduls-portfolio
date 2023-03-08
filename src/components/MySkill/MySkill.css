@@ -1,0 +1,20 @@
+.mySkill{
+    padding: 5%;
+}
+.mySkill .mySkill-title h3{
+    background-color: var(--bg-color);
+    display: inline-block;
+    padding: 1%;
+    border-radius: 10px;
+}
+.mySkill .skills{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ padding: 1%;
+ 
+}
+.mySkill .mySkill-title{
+    
+    text-align: left;
+}
