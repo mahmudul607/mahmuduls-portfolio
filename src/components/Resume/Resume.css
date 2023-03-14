@@ -7,3 +7,14 @@
 #Resume .education-work-skills{
     display: flex;
 }
+
+#Resume .btn{
+    border:1px solid var(--bg-color);
+    padding:1%;
+    margin-bottom:10px; 
+    color:white;
+}
+
+#Resume .btn:hover{
+    background-color: darkkhaki;
+}

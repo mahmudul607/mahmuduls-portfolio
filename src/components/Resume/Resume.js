@@ -42,6 +42,10 @@ const Resume = () => {
         <div className='skill-area'>
                 <MySkill></MySkill>
             </div>
+            <div className='btn' >
+                Download CV
+                
+            </div>
         </div>
     );
 };

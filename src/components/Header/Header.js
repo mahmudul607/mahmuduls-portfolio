@@ -77,10 +77,10 @@ function Header() {
               <span className="rect"></span>
               <span className="circle"></span>
                 Resume</Nav.Link>
-              <Nav.Link href="#section5">
+              <Nav.Link href="#portfolio">
               <span className="rect"></span>
               <span className="circle"></span>
-                FIVE</Nav.Link>
+                Portfolio</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

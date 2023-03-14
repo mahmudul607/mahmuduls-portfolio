@@ -8,6 +8,6 @@ export var ExperienceData = [{
     "institute": "W3 Schools"
   },{
     "session": "2022-2023",
-    "subject": "Font-End Development",
+    "subject": "Front-End Development",
     "institute": "Programming Hero"
   }];

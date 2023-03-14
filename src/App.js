@@ -4,11 +4,14 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
 import ColorItem from './Color-item';
-import { useEffect, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import Passion from './components/Passion/Passion';
 import Resume from './components/Resume/Resume';
+import Portfolio from './components/Portfolio/Portfolio';
+export const projectContext = createContext();
 
 function App() {
+  const [category, setCategory] = useState('');
   const colors = ['#2d3436', '#4834d4', '#be2edd', '#f9ca24', '#6ab04c', '#30336b', 'red']
   const [state, setState] = useState(false)
 
@@ -28,7 +31,7 @@ function App() {
 
   }
   return (
-    <>
+    <projectContext.Provider value={[category, setCategory]}>
     <div className='App'>
       
     <div className='Header-area'>
@@ -47,25 +50,24 @@ function App() {
       <section id="resume" className="content-section">
         <Resume></Resume>
       </section>
-      <section id="section5" className="content-section">
-        <h1>SECTION FIVE</h1>
+      <section id="portfolio" className="content-section">
+        <Portfolio></Portfolio>
       </section>
       </div>
 
         {/* color changer */}
-         <div className={`color-switcher ${state && 'color-switcher--open'}`}>
+          <div className={`color-switcher ${state && 'color-switcher--open'}`}>
             <button onClick={() => setState(prevState => !prevState)}><i className="ri-settings-2-line"></i></button>
             <h1 className='heading'>Select Color</h1>
             <div className='color-list'>
               {
                 colors.map((color, idx) => <ColorItem key={idx} setColor={setColor} color={color}></ColorItem>)
               }
-
             </div>
           </div>
           {/* end color changer */}
           </div>
-    </>
+    </projectContext.Provider>
 )}
 
 export default App;
