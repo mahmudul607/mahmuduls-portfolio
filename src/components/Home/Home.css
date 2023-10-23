@@ -1,5 +1,5 @@
 .home-page{
-    background:linear-gradient( rgb(29, 28, 28, 0.7), rgb(85, 84, 84, 0.7)), url(../../../src/images/my\ \(2\).jpg);
+    background:linear-gradient( rgb(29, 28, 28, 0.7), rgb(85, 84, 84, 0.7)), url(../../../src/images/bg/973646.jpg);
     background-size: cover;
    background-attachment: fixed;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 }
 
 .home-page .home-text-area .btn:hover p{
-    background-color: #6610f2;
+    background-color: var(--bg-color);
 }
 
 .animated-icon span{

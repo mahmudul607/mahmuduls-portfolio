@@ -53,9 +53,15 @@ nav a{
 	-moz-transition: -webkit-transform 0.6s, width 1s;
 	transition: transform 0.6s, width 1s;
 }
-nav a:hover, nav .active-section{
-	color: #9b59b6;
-}
+
+.navbar .container .navbar-brand h3 {
+    color:var(--bg-color);
+	font-weight: 700;
+  }
+  .navbar .container .navbar-brand h6 {
+    color:var(--bg-color);
+	font-weight: 700;
+  }
 nav a:hover span, nav .active-section span{
 	background-color: #9b59b6;
 }
@@ -93,6 +99,7 @@ nav .active-section .rect{
 	
   }
 
+
   /* expand navbar */
 
   header{
@@ -115,6 +122,14 @@ nav .active-section .rect{
   
    
     
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+	color: white !important;
+	font-weight: 600;
+	font-size: 1.2rem !important;
+  }
+  .navbar-expand-lg .navbar-nav .active-section{
+	color: var(--bg-color) !important;
   }
   .navbar .navbar-brand{
     text-align: center;

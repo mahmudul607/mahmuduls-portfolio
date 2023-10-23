@@ -1,5 +1,5 @@
-
 import './App.css';
+import './responsive.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
@@ -12,7 +12,7 @@ export const projectContext = createContext();
 
 function App() {
   const [category, setCategory] = useState('');
-  const colors = ['#2d3436', '#4834d4', '#be2edd', '#f9ca24', '#6ab04c', '#30336b', 'red']
+  const colors = ['#774964', '#9586f7', '#be2edd', '#f9ca24', '#6ab04c', '#35f55e', 'red']
   const [state, setState] = useState(false)
 
   useEffect(() => {

@@ -1,0 +1,263 @@
+
+@media (max-width: 1199.98px){
+    .navbar .container .navbar-brand h3{
+        font-size: 20px;
+    
+    }
+}
+
+@media (max-width: 991.98px) { 
+
+    .navbar .container .navbar-brand h3{
+        font-size: 30px;
+      
+    
+    }
+    .header_container{
+        display: flex !important;
+        align-items: self-start !important; 
+        justify-content: center;
+        width: 100% !important;
+        flex-direction: flex-start !important;
+        padding-top: 5rem;
+    }
+    header {
+        width: 100% !important;
+        position: unset !important;
+        min-height: 10vh !important;
+        height: 20%;
+        top: 5% !important;
+        
+       
+       
+      }
+      header .container .me-auto {
+        width: 100% !important;
+        background-color: #2f2d2d;
+        flex-direction: row !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        padding: 2%;
+       /* height: 43%; */
+        
+       
+      }
+      nav a{
+       padding-left: 2rem !important;
+       
+    }
+      .content-section{
+        position: unset !important;
+        width: 100% !important;
+        
+       
+    
+    }
+  
+
+    .navbar{
+
+        /* background: linear-gradient(transparent, rgba(255, 228, 225, 0.9)),url("./images/mh.PNG"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+@media (max-width: 767.99px){
+    .about-me-title h1{
+       
+        font-size: 4rem !important;
+      
+    }
+    #About .about-details{
+        display: flex;
+        flex-direction: column;
+    }
+    #About .about-details .contact-details .cv-btn span {
+        
+        padding: 2% !important;
+        
+      }
+      #About .work-details {
+      
+        height: auto !important;
+      }
+      #About .work-details .box-item .box{
+        border-right: none !important;
+    }
+
+    #Resume .education-work-skills {
+        display: flex;
+        flex-direction: column;
+      }
+      #Resume .education-work-skills .my-education, #Resume .education-work-skills .my-experience {
+        width: 100% !important;
+        
+      }
+    
+
+}
+
+@media (max-width: 575.99px){
+    .rect{
+        display: none !important;
+    }
+    .circle{
+        display: none !important;
+    }
+    header .container .me-auto {
+        display: flex;
+        flex-wrap: wrap;
+       
+       
+        
+       
+      }
+      nav a:hover, nav .active-section{
+        color: #9b59b6;
+    }
+    nav a{
+        padding: 2% !important;
+    }
+
+    .home-page .home-text-area {
+      
+        width: 100% !important;
+        left: 0 !important;
+     
+      }
+      .home-page .home-text-area span {
+        font-size: 15px !important;
+        
+      }
+      .about-me-title p {
+      
+        /* left: 0 !important; */
+        top: 20% !important;
+        font-size: 1.4rem !important;
+        
+      }
+      .about-me-title p::after{
+      
+        left: 18% !important;
+        width: 50px !important;
+    
+    }
+    .passion-item {
+    
+        width: 100% !important;
+       
+      }
+      .about-me-title h1{
+       
+        font-size: 2.2rem !important;
+      
+    }
+    .mySkill .skills {
+    
+        flex-direction: column !important;
+      
+      }
+      .skillsbars {
+        width: 100% !important;
+      
+      }
+    
+
+
+}
+
+@media screen and (max-width:250px){
+    .about-me-title h1{
+       
+        font-size: 1rem !important;
+      
+    }
+    
+#About .about-details .about-me-text h4{
+    font-size: 12px !important;
+}
+#About .about-details .about-me-text p{
+    font-size: 10px !important;
+}
+#About .about-details .contact-details ul{
+    padding-left: 0 !important;
+}
+.passion-item {
+ 
+    flex-direction: column;
+    
+  }
+  .passion-item .item-text {
+    
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 12px;
+  }
+  .passion-item .item-text h3{
+    font-size: 14px !important;
+  }
+  .about-me-title p {
+    
+    left: 5% !important;
+    
+  }
+  #Resume .education-work-skills {
+    font-size: 12px !important;
+  }
+  #About .about-details .contact-details .items ul li {
+    
+    font-size: 9px !important;
+   
+  }
+  #About .about-details .contact-details .cv-btn span a {
+    
+    font-size: 10px !important;
+    
+  }
+  .navbar .navbar-brand img {
+    width: 80px !important;
+    height: 80px !important;
+   
+  }
+  .navbar .container .navbar-brand h3 {
+    font-size: 15px;
+  }
+  .navbar .container .navbar-brand h6 {
+    font-size: 14px;
+  }
+  .items-area ul {
+    
+    flex-wrap: wrap !important;
+  }
+  .color-switcher {
+    width: 5rem !important;
+   
+  }
+  .color-list {
+    
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.5rem !important;
+  }
+  .color-item {
+    width: 1rem;
+    height: 1rem;
+   
+  }
+  .heading {
+    font-size: 1rem;
+    
+  }
+  .ri-settings-2-line {
+    
+    font-size: 1rem;
+   
+  }
+  .color-switcher button {
+    width: 2rem;
+    height: 2rem;
+   
+  }
+}
+

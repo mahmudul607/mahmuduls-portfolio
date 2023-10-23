@@ -46,7 +46,7 @@ const Portfolio = () => {
                     <li className={activeCategory === 'Develop' ? 'item active' : 'item'} onClick={() => handleCategoryClick('Develop')}>Develop</li>
                 </ul>
                 <div className={activeProject=== 'Design' ? 'Protfolio-gallery active2' : 'Protfolio-gallery'}>
-                    <div className={activeProject ===  'Develop' ? 'row g-4 project active' :'row g-4 project'}>
+                    <div className={activeProject ===  'Develop' ? 'row mx-0 g-4 project active' :'row mx-0  g-4 project'}>
                         {
                             project.map((pd, index) => <div className={
                                 "col-sm-6 col-lg-4 p-4  " +

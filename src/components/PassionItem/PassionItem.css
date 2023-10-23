@@ -1,7 +1,7 @@
 .passion-item{
     display: flex;
     width: 50%;
-    height: 120px;
+    height: auto;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
@@ -15,7 +15,7 @@
     
 }
 .passion-item .passion-item-icon .icon-area{
-    height: 80%;
+    
     text-align: center;
     padding: 5%;
     background-color: black;
@@ -32,6 +32,7 @@
 }
 .passion-item .item-text p{
     color: white;
+    /* color: #fa9fd4; */
 
 }
 
@@ -40,9 +41,20 @@
     position: relative;
     display: inline-block;
     font-size: 1.5rem;
+    padding: 15%;
+    animation: iconmove 2s linear infinite;
   
   }
-  
+  .passion-item:hover .passion-item-icon .icon-area .icon{
+    animation: none;
+    cursor: pointer;
+    color: orangered;
+
+  }
+  @keyframes iconmove {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+  }
   
   
   

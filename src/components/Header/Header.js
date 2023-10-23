@@ -3,7 +3,7 @@ import $ from 'jquery';
 import './Header.css'
 import myPhoto from '../../images/mh.PNG';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Container, Navbar, Nav} from 'react-bootstrap';
 
 function Header() {
   useEffect(() => {
@@ -52,12 +52,13 @@ function Header() {
   return (
 
     <header>
-      <Navbar bg="light" expand="lg">
-        <Container>
+      <Navbar  expand="lg">
+        <Container className="header_container">
           <Navbar.Brand href="#home">
           <img src={myPhoto} alt=""/>
             <h3>Mahmudul Hasan</h3>
-            <h6>FrontEnd Developer</h6></Navbar.Brand>
+            <h6>FrontEnd Developer</h6>
+            </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

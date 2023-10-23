@@ -1,4 +1,6 @@
-
+body{
+  width: 100% !important;
+}
 /* color switcher */
 .color-switcher{
   width: 10rem;
@@ -9,6 +11,7 @@
   top: 50%;
   transform: translate(100%, -50%);
   transition: all 0.5s ease-in-out;
+  z-index: 999;
 }
 
 .color-switcher--open{
@@ -56,6 +59,10 @@
   display: inline-block;
   font-size: 1.5rem;
   animation: mymove 2s linear infinite;
+}
+ .Header-area header{
+  background-color: #332e2e;
+  
 }
 
 

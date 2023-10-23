@@ -37,7 +37,8 @@
 .Protfolio-gallery {
     display: flex;
     transition: 1s;
-    height: 900px;
+    min-height: 100vh;
+    height: auto;
     position: relative;
 }
 .Protfolio-gallery .project{

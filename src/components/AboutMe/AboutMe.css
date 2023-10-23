@@ -18,7 +18,7 @@ position: relative;
     color: gray;
     height: 50px;
     line-height: 1.3rem;
-    font-size: 8rem;
+    font-size: 7rem;
     padding: 8%;
 }
 .about-me-title p{
@@ -90,7 +90,7 @@ a{
     margin: auto;
 }
 #About .about-details .contact-details .cv-btn span{
-    border: 2px solid gold;
+    border: 2px solid var(--bg-color);
     padding: 4%;
     border-radius: 20px;
     background: var(--bg-color);
@@ -110,9 +110,8 @@ a{
  
 }
 #About .work-details .box-item{
-    position: relative;
-    bottom: 0;
-    top: 60%;
+ 
+    padding-top: 3%;
    
 
 
