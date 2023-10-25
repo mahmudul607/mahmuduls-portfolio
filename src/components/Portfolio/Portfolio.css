@@ -27,10 +27,10 @@
     flex-direction: row-reverse !important;
     
 }
-.active img{
+.active .items_g{
     animation: imageSize 1s;
 }
-.active2 img{
+.active2 .items_g{
     animation: imageSize 2s;
 }
 
@@ -38,7 +38,7 @@
     display: flex;
     transition: 1s;
     min-height: 100vh;
-    height: auto;
+    height: 100%;
     position: relative;
 }
 .Protfolio-gallery .project{
@@ -47,11 +47,42 @@
     position: relative;
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
+   
 }
 
 .Protfolio-gallery li:nth-child(2), .Protfolio-gallery li:nth-child(5){
     height: 50%;
 }
+.Protfolio-gallery .project .gallery_item{
+    height: 400px;
+    gap: 1rem;
+
+
+}
+.Protfolio-gallery .project .items_g{
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    transition: all 8s ease-in-out;
+
+}
+.Protfolio-gallery .project .BitCoin{
+    background-image: url(../../images/bg/BdCoin.png);
+   
+}
+.Protfolio-gallery .project .BdSoftonic{
+    background-image: url(../../images/bg/BdSoftonic.png);
+    
+}
+.Protfolio-gallery .project .HappyDiagnostic{
+    background-image: url(../../images/bg/HappyDiagnostic.png);
+   
+}
+.Protfolio-gallery .project .items_g:hover{
+    background-position: bottom;
+}
+
 
 @keyframes imageSize {
     from{width: 0;}

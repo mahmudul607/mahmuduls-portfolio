@@ -6,11 +6,11 @@ var Data = [ {
   "icon": "<FaPaintBrush/>"
 },
 {
-  "title": "App Design",
+  "title": "Frontend Development",
   "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
   "icon": "<FaDesktop/>"
 }, {
-  "title": "Business Analysis",
+  "title": "Developing With React",
   "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
   "icon": "<FaChartArea/>"
 },
@@ -22,7 +22,7 @@ var Data = [ {
     "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
     "icon": "<FaPencilRuler/>"
   }, {
-    "title": "SEO Marketing",
+    "title": "Business Analysis",
     "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
     "icon": "<FaBullhorn/>"
   }]

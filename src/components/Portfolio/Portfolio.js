@@ -48,12 +48,14 @@ const Portfolio = () => {
                 <div className={activeProject=== 'Design' ? 'Protfolio-gallery active2' : 'Protfolio-gallery'}>
                     <div className={activeProject ===  'Develop' ? 'row mx-0 g-4 project active' :'row mx-0  g-4 project'}>
                         {
-                            project.map((pd, index) => <div className={
-                                "col-sm-6 col-lg-4 p-4  " +
-                                pd.category
+                            project.map((pd, index) => <div className={" col-sm-6 col-lg-4 p-4 gallery_item"}>
+                                <div className={
+                                    "items_g " +
+                                pd.category +" "+ pd.siteName
                             } key={index}>
-                                <img src={pd.thumbImage} alt=""/>
-                            </div>)
+                                
+                            </div>
+                            </div> )
                         }
 
                     </div>

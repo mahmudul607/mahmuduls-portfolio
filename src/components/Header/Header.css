@@ -111,7 +111,7 @@ nav .active-section .rect{
   }
   header .container{
     display: flex;
-    flex-direction: column;
+    
   }
   header .container .me-auto{
     display: flex;
@@ -123,10 +123,16 @@ nav .active-section .rect{
    
     
   }
+  .navbar-toggler {
+	
+	
+	background-color: white !important;
+
+  }
   .navbar-expand-lg .navbar-nav .nav-link{
 	color: white !important;
 	font-weight: 600;
-	font-size: 1.2rem !important;
+	font-size: 1.2rem;
   }
   .navbar-expand-lg .navbar-nav .active-section{
 	color: var(--bg-color) !important;

@@ -53,7 +53,7 @@ function Header() {
 
     <header>
       <Navbar  expand="lg">
-        <Container className="header_container">
+        <Container className="header_container container-fluid">
           <Navbar.Brand href="#home">
           <img src={myPhoto} alt=""/>
             <h3>Mahmudul Hasan</h3>

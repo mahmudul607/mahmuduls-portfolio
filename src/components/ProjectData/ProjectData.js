@@ -9,6 +9,7 @@ export var ProjectData = [
         "industry": "Art & Design",
         "date": "July 16, 2019",
         "category": "Design",
+        "siteName": "BitCoin",
         "url": {
           "name": "www.example.com",
           "link": "https://www.example.com"
@@ -20,7 +21,7 @@ export var ProjectData = [
           "instagram": "http://www.instagram.com/",
           "mail": "mailto:example@gmail.com"
         },
-        "thumbImage":"https://i.ibb.co/nsJ6Vq2/Project-4.png",
+        "thumbImage":"https://i.ibb.co/X37xqMf/screencapture-mahmudul607-github-io-Bd-Bit-Coin-index-html-2023-10-25-12-26-03.png",
           "sliderImages": [
           "images/Project-1.PNG",
           "images/Project-2.PNG"
@@ -34,6 +35,7 @@ export var ProjectData = [
         "industry": "Art & Design",
         "date": "July 16, 2019",
         "category": "Design",
+        "siteName": "BdSoftonic",
         "url": {
           "name": "www.example.com",
           "link": "https://www.example.com"
@@ -45,7 +47,7 @@ export var ProjectData = [
           "instagram": "http://www.instagram.com/",
           "mail": "mailto:example@gmail.com"
         },
-        "thumbImage": "https://i.ibb.co/C6GsyjF/Project-6.png",
+        "thumbImage": "https://i.ibb.co/FVB53dG/screencapture-mahmudul607-github-io-Bd-Softonic-2023-10-25-12-32-04.png",
         "sliderImages": [
           "images/Project-2.PNG",
           "images/Project-8.PNG"
@@ -59,6 +61,7 @@ export var ProjectData = [
         "industry": "Art & Design",
         "date": "July 16, 2019",
         "category": "Design",
+        "siteName": "HappyDiagnostic",
         "url": {
           "name": "www.example.com",
           "link": "https://www.example.com"
@@ -70,7 +73,7 @@ export var ProjectData = [
           "instagram": "http://www.instagram.com/",
           "mail": "mailto:example@gmail.com"
         },
-        "thumbImage": "https://i.ibb.co/k1TjKjZ/Project-7.png",
+        "thumbImage": "https://i.ibb.co/QmCtDp9/Happy-Diagnostic.png",
         "sliderImages": [
           "images/projects/project-1.jpg",
           "images/projects/project-5.jpg"
@@ -84,6 +87,7 @@ export var ProjectData = [
         "industry": "Art & Design",
         "date": "July 16, 2019",
         "category": "Develop",
+        "siteName": "BitCoin",
         "url": {
           "name": "www.example.com",
           "link": "https://www.example.com"
@@ -95,7 +99,7 @@ export var ProjectData = [
           "instagram": "http://www.instagram.com/",
           "mail": "mailto:example@gmail.com"
         },
-        "thumbImage": "https://i.ibb.co/bgFfG0H/Project-2.png",
+        "thumbImage": "https://i.ibb.co/X37xqMf/screencapture-mahmudul607-github-io-Bd-Bit-Coin-index-html-2023-10-25-12-26-03.png",
         "sliderImages": [
           "images/projects/project-1.jpg",
           "images/projects/project-5.jpg"
