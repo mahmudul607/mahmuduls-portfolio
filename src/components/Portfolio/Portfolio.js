@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { projectContext } from '../../App';
 import { ProjectData } from '../ProjectData/ProjectData';
 import './Portfolio.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -48,13 +49,14 @@ const Portfolio = () => {
                 <div className={activeProject=== 'Design' ? 'Protfolio-gallery active2' : 'Protfolio-gallery'}>
                     <div className={activeProject ===  'Develop' ? 'row mx-0 g-4 project active' :'row mx-0  g-4 project'}>
                         {
-                            project.map((pd, index) => <div className={" col-sm-6 col-lg-4 p-4 gallery_item"}>
+                            project.map((pd, index) => <div className={" col-sm-6 col-lg-4 p-4 gallery_item"} key={index}>
                                 <div className={
                                     "items_g " +
                                 pd.category +" "+ pd.siteName
-                            } key={index}>
+                            } >
                                 
                             </div>
+                            <p><a href={pd.url.link}>Live View</a></p>
                             </div> )
                         }
 

@@ -79,6 +79,15 @@
     background-image: url(../../images/bg/HappyDiagnostic.png);
    
 }
+.Protfolio-gallery .project .Restaurant{
+    background-image: url(../../images/bg/restaurant.png);
+   
+}
+.Protfolio-gallery .project .Car-Doctor{
+    background-image: url(../../images/bg/car.png);
+   
+}
+
 .Protfolio-gallery .project .items_g:hover{
     background-position: bottom;
 }
