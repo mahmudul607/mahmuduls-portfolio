@@ -16,7 +16,7 @@ const Home = () => {
                     <div className="camera"></div>
                     <div className="display w-full h-full">
                         <div className=" h-full bg-white">
-                            <Carousel autoPlay infiniteLoop showThumbs={false} className='h-full'>
+                            <Carousel utoPlay infiniteLoop showThumbs={false} className='h-full'>
                                 <div className='h-full'>
                                     <img src={myPhoto} alt='myPhoto' />
 

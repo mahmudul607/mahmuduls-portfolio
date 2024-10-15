@@ -76,5 +76,6 @@
     padding-top: 0;
 }
 .carousel .slider-wrapper{
-    margin: unset !important;
+    margin: 0 !important;
+    height: 100%;
 }
