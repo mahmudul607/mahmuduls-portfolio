@@ -10,41 +10,43 @@ const Resume = () => {
     const data1 = EducationData;
     const data2 = ExperienceData;
     return (
-        <div id='Resume' style={{ background: '#212529'}}>
-        <div className='about-me-title'>
-            <h1>Summary</h1>
-            <p>     
-                Resume 
-          </p>
-            
-        </div>
+        <div id='Resume' style={{ background: '#212529' }}>
+            <div className='about-me-title'>
+                <h1>Summary</h1>
+                <p>
+                    Resume
+                </p>
 
-        <div className='education-work-skills'>
-            <div className='my-education'>
-                <div className='title' style={{color:'white'}}>
-                <h2>My Education</h2> 
-                </div>
-                {
-                    data1.map(pd => <Education data={pd}></Education>)
-                }
             </div>
-            <div className='my-experience'>
-            <div className='title' style={{color:'white'}}>
-                <h2>My Experience</h2> 
+
+            <div className='education-work-skills'>
+                <div className='my-education'>
+                    <div className='title' style={{ color: 'white' }}>
+                        <h2>My Education</h2>
+                    </div>
+                    {
+                        data1.map(pd => <Education data={pd}></Education>)
+                    }
                 </div>
-                {
-                    data2.map(pd => <Experience data={pd}></Experience>)
-                }
+                <div className='my-experience'>
+                    <div className='title' style={{ color: 'white' }}>
+                        <h2>My Experience</h2>
+                    </div>
+                    {
+                        data2.map(pd => <Experience data={pd}></Experience>)
+                    }
+                </div>
+
+
             </div>
-            
-            
-        </div>
-        <div className='skill-area'>
+            <div className='skill-area'>
                 <MySkill></MySkill>
             </div>
-            <div className='btn' >
-                Download CV
-                
+            <div>
+                <a href="./mahmudul.pdf" download="filename.pdf">
+                    <button className='cv-btn btn btn-primary'>Download CV</button>
+                </a>
+
             </div>
         </div>
     );

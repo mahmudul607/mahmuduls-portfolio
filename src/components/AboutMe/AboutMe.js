@@ -78,8 +78,10 @@ const AboutMe = () => {
                         </ul>
 
                     </div>
-                    <div className='cv-btn btn'>
-                        <span><a href="">Download CV</a></span>
+                    <div>
+                        <a href="./mahmudul.pdf" download="filename.pdf">
+                          <button  className='cv-btn btn btn-primary'>Download CV</button>
+                            </a>
 
                     </div>
                     

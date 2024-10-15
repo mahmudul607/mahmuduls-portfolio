@@ -1,5 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
 :root{
   --bg-color:rgb(243, 139, 203);
+  --bs-offcanvas-lg-width:20%;
+
+  --bs-offcanvas-md-width:35%;
+  --bs-offcanvas-sm-width:50%;
+  --bs-offcanvas-xs-width:80%;
+  
 }
 body {
   margin: 0;
@@ -14,3 +26,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

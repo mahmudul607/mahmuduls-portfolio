@@ -20,7 +20,7 @@ const Passion = () => {
             </div>
             <div className='item-box'>
             {
-                passionData.map(ps => <PassionItem ps={ps}></PassionItem>)
+                passionData.map((ps, index) => <PassionItem ps={ps} key={index}></PassionItem>)
             }
                 
             </div>

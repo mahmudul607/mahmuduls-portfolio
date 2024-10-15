@@ -1,30 +1,37 @@
 
 
-var Data = [ {
-  "title": "Web Design & Develop",
-  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus. ",
-  "icon": "<FaPaintBrush/>"
-},
+var Data = [
 {
   "title": "Frontend Development",
-  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
-  "icon": "<FaDesktop/>"
-}, {
-  "title": "Developing With React",
-  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
-  "icon": "<FaChartArea/>"
+  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus. ",
+  "icon": 'FaPaintBrush',
 },
-  {
-    "title": "Graphic Design",
-    "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus."
-  }, {
+{
+  "title": "Responsive Design",
+  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+  "icon": "FaDesktop"
+}, 
+{
+  "title": "User Friendly Function",
+  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+  "icon": "FaChartArea"
+},
+
+{
     "title": "UI/UX Design",
     "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
-    "icon": "<FaPencilRuler/>"
-  }, {
-    "title": "Business Analysis",
+    "icon": "FaPencilRuler"
+}, 
+{
+    "title": "Insure Dynamic Components",
     "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
-    "icon": "<FaBullhorn/>"
-  }]
+    "icon": "FaBullhorn"
+},
+{
+    "title": "Figma to React Conversion",
+    "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+    "icon": "FaBullhorn"
+}
+]
 
   export default Data;

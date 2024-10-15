@@ -87,6 +87,10 @@
     background-image: url(../../images/bg/car.png);
    
 }
+.Protfolio-gallery .project .CSE_CAREER{
+    background-image: url(../../images/bg/csecareer-2024.png);
+   
+}
 
 .Protfolio-gallery .project .items_g:hover{
     background-position: bottom;

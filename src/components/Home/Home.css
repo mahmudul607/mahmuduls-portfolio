@@ -7,7 +7,19 @@
     position: relative;
     
 }
-
+/* .myPhotoTwo{
+    background: url('../../images/removebg-preview2.png');
+  
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: right top;
+   
+     width: 100%;
+     height: 100%;
+} */
+.mockup-phone{
+    border: 2px solid var(--bg-color);
+}
 .home-page .home-text-area{
     color: white !important;
     position: absolute;
@@ -15,18 +27,18 @@
     vertical-align: center;
     width:50%;
     top: 20%;
-    left:20%;
+    
     line-height: 100px;
 }
 .home-page .home-text-area span{
     font-size: 30px;
     color: var(--bg-color);
 }
-.home-page .home-text-area .btn p{
-    padding: 8%;
+.home-page .home-text-area  .btn{
+    padding: 12px;
     border: 2px solid var(--bg-color);
-    width: 120px;
-    border-radius: 20px;
+    width: 150px;
+    border-radius: 50px;
     color: white;
 }
 
@@ -51,4 +63,18 @@
         top: 100%;
         opacity: 1;
     }
+}
+
+/* carousel style */
+.carousel .legend{
+    bottom: unset !important ;
+    top: 60%;
+}
+ .carousel-slider, .carousel .slider{
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+.carousel .slider-wrapper{
+    margin: unset !important;
 }

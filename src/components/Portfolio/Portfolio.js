@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { projectContext } from '../../App';
 import { ProjectData } from '../ProjectData/ProjectData';
 import './Portfolio.css'
-import { Link } from 'react-router-dom';
+
 
 
 
@@ -33,7 +33,7 @@ const Portfolio = () => {
     }, [category, data]);
 
     return (
-        <div id='Portfolio' style={{ background: '#343a40' }}>
+        <div className='pb-6' id='Portfolio' style={{ background: '#343a40' }}>
             <div className='about-me-title'>
                 <h1>Portfolio</h1>
                 <p>

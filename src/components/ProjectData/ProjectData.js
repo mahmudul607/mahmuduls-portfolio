@@ -1,5 +1,31 @@
 
 export var ProjectData = [
+  {
+    "title": "Project Title 7",
+    "projectInfo": "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    "client": "Ruby Clinton",
+    "technologies": "iOS, HTML5, CSS3, PHP, Java",
+    "industry": "Art & Design",
+    "date": "July 16, 2019",
+    "category": "Develop",
+    "siteName": "CSE_CAREER",
+    "url": {
+      "name": "www.example.com",
+      "link": "http://csecareer.com"
+    },
+    "socialLinks": {
+      "facebook": "http://www.facebook.com/",
+      "twitter": "http://www.twitter.com/",
+      "google": "http://www.google.com/",
+      "instagram": "http://www.instagram.com/",
+      "mail": "mailto:example@gmail.com"
+    },
+    "thumbImage": "https://i.ibb.co.com/WW5vGNL/csecareer-2024.png",
+    "sliderImages": [
+      "images/projects/project-1.jpg",
+      "images/projects/project-5.jpg"
+    ]
+  },
 
   {
     "title": "Project Title 5",

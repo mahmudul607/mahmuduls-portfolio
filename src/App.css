@@ -72,3 +72,84 @@ body{
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+/* Navbar css */
+.Header-area{
+  color: var(--bg-color);
+}
+
+.title_offcanvas_section{
+  font-family:"Edu AU VIC WA NT Dots", cursive;
+  color: var(--bg-color);
+}
+.header_title_section{
+  color: var(--bg-color);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+/* Offcanvas styling */
+.offcanvas {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%; /* Initially hidden, off the screen */
+  width: var(--bs-offcanvas-lg-width) !important;
+  background-color: #1e1d1d !important;
+  color: white;
+  overflow: hidden;
+  transition: left 0.3s ease;
+}
+
+/* When offcanvas is open */
+.offcanvas.open {
+  left: 0; /* Slide it in from the left */
+}
+.offcanvas-backdrop{
+  display: none!important;
+
+}
+.offcanvas.offcanvas-start {
+  /* top: 0;
+  left: 0; */
+  /* width: var(--bs-offcanvas-width); */
+  /* border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color); */
+  /* transform: translateX(-100%); */
+  border-right: none !important;
+ 
+}
+
+
+.offcanvas{
+  width: var(--bs-offcanvas-lg-width);
+}
+
+.content-position-open{
+  margin-left: var(--bs-offcanvas-lg-width);
+}
+.resize{
+  margin-left: var(--bs-offcanvas-lg-width);
+}
+
+
+
+
+.sticky-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ z-index: 1000;
+ transition: transform 0.3s ease;
+ transform: translateY(-100%);
+}
+
+.sticky-header.active{
+  transform: translateY(0);
+}
+
+/* style for header */
+

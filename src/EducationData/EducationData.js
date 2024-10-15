@@ -7,7 +7,7 @@ export var EducationData = [{
     "subject": "Computer Science & Technology",
     "institute": "Kurigram Polytechnic Institute"
   },{
-    "session": "2020-2023",
+    "session": "2020-2024",
     "subject": "B.Sc In CSE",
     "institute": "Dhaka International University"
   }];
