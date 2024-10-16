@@ -184,5 +184,31 @@ export var ProjectData = [
           "images/projects/project-5.jpg"
         ]
       },
+      {
+        "title": "Project Title 8",
+        "projectInfo": "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "client": "Ruby Clinton",
+        "technologies": "iOS, HTML5, CSS3, PHP, Java",
+        "industry": "Art & Design",
+        "date": "July 16, 2019",
+        "category": "Develop",
+        "siteName": "TiktakTo_Customized",
+        "url": {
+          "name": "www.example.com",
+          "link": "https://gameninesquare.netlify.app"
+        },
+        "socialLinks": {
+          "facebook": "http://www.facebook.com/",
+          "twitter": "http://www.twitter.com/",
+          "google": "http://www.google.com/",
+          "instagram": "http://www.instagram.com/",
+          "mail": "mailto:example@gmail.com"
+        },
+        "thumbImage": "https://i.ibb.co.com/RyCRVY7/screencapture-gameninesquare-netlify-app-2024-10-16-15-37-27.png",
+        "sliderImages": [
+          "images/projects/project-1.jpg",
+          "images/projects/project-5.jpg"
+        ]
+      },
     
   ];

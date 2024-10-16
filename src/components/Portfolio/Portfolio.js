@@ -35,7 +35,7 @@ const Portfolio = () => {
     return (
         <div className='pb-6' id='Portfolio' style={{ background: '#343a40' }}>
             <div className='about-me-title'>
-                <h1>Portfolio</h1>
+                <h1>My Work</h1>
                 <p>
                     My Work
                 </p>

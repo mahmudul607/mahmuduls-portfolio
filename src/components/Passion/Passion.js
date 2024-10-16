@@ -15,7 +15,7 @@ const Passion = () => {
         <section id='Passion' style={{background:'#343a40'}}>
             <div className='about-me-title'>
                 <h1>Passion</h1>
-                <p>What I Do ?</p>
+                <p> Providing Services</p>
                 
             </div>
             <div className='item-box'>

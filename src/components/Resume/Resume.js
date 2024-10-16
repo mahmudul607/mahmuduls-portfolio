@@ -14,7 +14,7 @@ const Resume = () => {
             <div className='about-me-title'>
                 <h1>Summary</h1>
                 <p>
-                    Resume
+                    Summary
                 </p>
 
             </div>

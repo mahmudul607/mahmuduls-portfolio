@@ -91,6 +91,10 @@
     background-image: url(../../images/bg/csecareer-2024.png);
    
 }
+.Protfolio-gallery .project .TiktakTo_Customized{
+    background-image: url(../../images/bg/tiktakto.png);
+   
+}
 
 .Protfolio-gallery .project .items_g:hover{
     background-position: bottom;

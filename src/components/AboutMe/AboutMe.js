@@ -61,17 +61,19 @@ const AboutMe = () => {
             <div className='details_section'>
             <div className='about-details'>
                 <div className='about-me-text col-lg-7 col-xl-8'>
-                    <h4>I'm <span>Mahmhudul Hasan</span>, a web developer</h4>
-                    <p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        <br />
+                    <h4>Hi, I'm ,  <span>Mahmudul Hassan</span>, a passionate web developer</h4>
+                    <p>I focuses on creating clean, efficient and user friendly websites. I specialize in frontend development with a strong command of React.Js and modern web technologies 
+                    <br />
+                         My goal is to build responsive, high-quality web applications that deliver a superior user experience.
+                        
 
-                        Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
+                      </p>
 
                 </div>
                 <div className='contact-details col-lg-5 col-xl-4'>
                     <div className='items'>
                         <ul>
-                            <li>Name: Mahmudul Hasan</li>
+                            <li>Mahmudul Hasan</li>
                             <li>Email: mahmudul.cse.eng@gmail.com</li>
                             <li>Age: 22</li>
                             <li>From: Dhaka, Bangladesh</li>
@@ -98,19 +100,19 @@ const AboutMe = () => {
                         </div>
                         <div className='col-md-3 box-item'>
                             <div className='box'>
-                                <h4 class="counter" max-data="50">0</h4>
+                                <h4 class="counter" max-data="15">0</h4>
                                 <p>Happy Client’s</p>
                             </div>
                         </div>
                         <div className='col-md-3 box-item'>
                             <div className='box'>
-                                <h4 class="counter" max-data="200">0</h4>
+                                <h4 class="counter" max-data="60">0</h4>
                                 <p>Projects Done</p>
                             </div>
                         </div>
                         <div className='col-md-3 box-item'>
                             <div className='box'>
-                                <h4 class="counter" max-data="10">0</h4>
+                                <h4 class="counter" max-data="12">0</h4>
                                 <p>Get Awards</p>
                             </div>
                         </div>

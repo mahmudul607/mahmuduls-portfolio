@@ -3,33 +3,33 @@
 var Data = [
 {
   "title": "Frontend Development",
-  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus. ",
+  "paragraph": "Building responsive, visually appealing web interfaces with HTML, CSS, and JavaScript to deliver seamless user experiences.",
   "icon": 'FaPaintBrush',
 },
 {
   "title": "Responsive Design",
-  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+  "paragraph": "Creating websites that adapt smoothly to different screen sizes and devices, ensuring optimal usability and aesthetics.",
   "icon": "FaDesktop"
 }, 
 {
-  "title": "User Friendly Function",
-  "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+  "title": "Developing With React",
+  "paragraph": "Building dynamic, high-performance web applications using React.js, focusing on reusable components and modern JavaScript features.",
   "icon": "FaChartArea"
 },
 
 {
     "title": "UI/UX Design",
-    "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+    "paragraph": "Designing user interfaces that are intuitive and visually engaging while optimizing the overall user experience.",
     "icon": "FaPencilRuler"
 }, 
 {
     "title": "Insure Dynamic Components",
-    "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+    "paragraph": "Implementing flexible, interactive components that enhance functionality and user engagement on websites and apps.",
     "icon": "FaBullhorn"
 },
 {
     "title": "Figma to React Conversion",
-    "paragraph": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus.",
+    "paragraph": "Transforming Figma designs into fully functional React components with precision and attention to design details.",
     "icon": "FaBullhorn"
 }
 ]
