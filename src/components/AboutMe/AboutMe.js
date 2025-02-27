@@ -54,7 +54,7 @@ const AboutMe = () => {
 
     return (
         <div id='About' style={{  padding: '5px', minHeight:'100vh'}}>
-            <div className='about-me-title'>
+            <div className='about-me-title mx-auto '>
                 <h1>About me</h1>
                 <p>Know Me More</p>
             </div>

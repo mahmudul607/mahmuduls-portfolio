@@ -11,6 +11,7 @@
   --bs-offcanvas-md-width:35%;
   --bs-offcanvas-sm-width:50%;
   --bs-offcanvas-xs-width:80%;
+  overflow-x: hidden;
   
 }
 body {
@@ -20,6 +21,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {

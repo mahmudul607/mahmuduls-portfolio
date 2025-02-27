@@ -2,8 +2,9 @@ import React, { useEffect, useState, createContext } from 'react';
 import $ from 'jquery';
 import './App.css';
 import './responsive.css';
-import { Container, Navbar, Nav, Button, Offcanvas } from 'react-bootstrap';
+import { Container, Navbar, Nav, Offcanvas } from 'react-bootstrap';
 import Home from './components/Home/Home';
+import Typewriter from 'typewriter-effect';
 import AboutMe from './components/AboutMe/AboutMe';
 import Passion from './components/Passion/Passion';
 import Resume from './components/Resume/Resume';
@@ -12,7 +13,7 @@ import ColorItem from './Color-item';
 import myPhoto from './images/mh.PNG';
 import './components/Header/Header.css';
 import { FaPhone } from 'react-icons/fa';
-import headerLogo from './images/all.png'
+import headerLogo from './images/mh.PNG'
 
 export const projectContext = createContext();
 
@@ -41,7 +42,7 @@ const App = () => {
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
     // setScrollPosition(window.scrollY);
-    console.log(currentScrollY)
+  
     if (currentScrollY < 200) {
       setIsSticky(true)
     } else if (currentScrollY > 200 && currentScrollY < 600) {
@@ -142,15 +143,27 @@ const App = () => {
             </label>
           </div>
           <div className={`text-center items-center header_title_section w-full  flex flex-row gap-2  px-4 justify-between ${show? 'show_hidden': ""}`}>
-            <h1 className='text-[1rem] items-center   md:text-4xl mx-auto py-1 flex '> <img className='w-16 ' src={headerLogo} alt=""/>   <i>Mahmudul Hasan</i></h1>
-            <h1 className={`text-xl flex gap-4 items-center ${show? 'show_hidden_number': ""}`}><FaPhone/> 01797692607</h1>
+            <h1 className='text-[1rem] items-center   md:text-2xl lg:text-4xl mx-auto py-1 flex '> <img className='md:w-8 w-8 rounded-full header_logo_area ' src={headerLogo} alt=""/>   <i>
+            <Typewriter
+                    options={{
+                        strings: [
+                            "Mahmudul Hasan",
+                           
+                        ],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
+              
+              </i></h1>
+            <h1 className={`md:text-xl text-[1rem] header_number flex gap-4 items-center ${show? 'show_hidden_number': ""}`}><FaPhone/> 01797692607</h1>
           </div>
             </div>
 
             {/* Offcanvas area */}
             <div>
             <Offcanvas className={`text-xs md:text-xl overflow-hidden bg-[#1e1d1d] ${show ? 'show-offcanvas' : ''}`} scroll show={show}>
-              <Offcanvas.Header clssName='h-40% pb-6' >
+              <Offcanvas.Header className='h-40% pb-6' >
                 <Offcanvas.Title>
                   <img className='mask mask-hexagon-2 w-full' src={myPhoto} alt="Mahmudul Hasan" />
                   <div className='title_offcanvas_section text-center'>

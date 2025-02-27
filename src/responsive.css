@@ -70,7 +70,9 @@
     }
 }
 @media (max-width: 767.99px){
-
+  .header_number{
+    display: none;
+  }
  
 .show_hidden_number{
   display: none;
@@ -124,7 +126,34 @@
 }
 
 @media (max-width: 575.99px){
+  .home-page .myPhotoTwo, .home-page .home-text-area{
+    position: relative !important;
+  }
+  .home-page{
+    display: flex;
+    flex-direction: column-reverse !important;
+    height: 100% !important;
+    min-height: auto !important;
+   
+  }
+  .myPhotoTwo, .home-text-area{
+    width: 100% !important;
+   height: 100% !important;
+   margin-bottom: 4rem !important;
+    top: 0 !important;
+  }
+  .myPhotoTwo{
+   
+    top: 4rem !important;
+    right: unset !important;
 
+  }
+  
+ 
+.home-text-area{
+  font-size: 12px;
+  top: 3.3rem !important;
+}
   .offcanvas {
     
     width: var(--bs-offcanvas-sm-width) !important;
@@ -164,12 +193,7 @@
         padding: 2% !important;
     }
 
-    .home-page .home-text-area {
-      
-        width: 100% !important;
-        left: 0 !important;
-     
-      }
+    
       .home-page .home-text-area span {
         font-size: 15px !important;
         
@@ -179,12 +203,16 @@
         /* left: 0 !important; */
         top: 20% !important;
         font-size: 1.4rem !important;
+        left: unset !important;
+        width: 100% !important;
+        text-align: center !important;
+    
         
       }
       .about-me-title p::after{
       
-        left: 18% !important;
-        width: 50px !important;
+        width: 50% !important;
+        
     
     }
     .passion-item {
@@ -212,6 +240,15 @@
 }
 
 @media screen and (max-width:250px){
+  .header_logo_area{
+    display: none;
+  }
+  .home-text-area{
+    font-size: 8px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+  }
 
   .offcanvas {
     
@@ -255,11 +292,7 @@
   .passion-item .item-text h3{
     font-size: 14px !important;
   }
-  .about-me-title p {
-    
-    left: 5% !important;
-    
-  }
+ 
   #Resume .education-work-skills {
     font-size: 12px !important;
   }

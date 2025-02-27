@@ -35,7 +35,7 @@
     color: var(--bg-color);
 }
 .home-page .home-text-area  .btn{
-    padding: 12px;
+    
     border: 2px solid var(--bg-color);
     width: 150px;
     border-radius: 50px;
