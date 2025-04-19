@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Typewriter from 'typewriter-effect';
-import { FaAngleDown, FaFacebook, FaTwitterSquare } from 'react-icons/fa';
+import { FaAngleDown, FaFacebook,  FaLinkedinIn } from 'react-icons/fa';
 import myPhoto from '../../images/Capture3-removebg-.png'
 import myPhoto2 from '../../images/pic (2).jpg'
 import myPhoto3 from '../../images/Capture.PNG'
@@ -29,13 +29,14 @@ const Home = () => {
                                     
                                    
                                     <img className="mask mask-heart w-72 h-72" src={myPhoto2} alt='myPhoto2'/>
-                                    <a href="https://www.facebook.com/mahmudul607"><p className="legend bottom-48"> <span className='flex md:text-xl items-center gap-2 justify-center'><FaTwitterSquare /> Follow On Twitter</span> </p>
+                                    <a href="https://www.linkedin.com/in/csemahmudul"><p className="legend bottom-48"> <span className='flex md:text-lg items-center gap-2 justify-center'><FaLinkedinIn />Follow On LinkedIn</span> </p>
 
                                     </a>
                                 </div>
                                 <div>
                                     <img src={myPhoto3} alt='myPhoto3' />
-                                    <p className="legend">Contact</p>
+                                    <a href="https://www.facebook.com/mahmudul607"><p className="legend">Contact</p></a>
+                                    
                                 </div>
                             </Carousel>
                         </div>
@@ -57,7 +58,7 @@ const Home = () => {
                 />
                 <h6>based in City of Capital, Dhaka.</h6>
                 <div className=''>
-                    <p className='btn'>Hire Me</p>
+                    <a href="https://www.facebook.com/mahmudul607"><p className='btn'>Contact Me</p></a> 
                 </div>
                 <div className='animated-icon'>
                     <span>

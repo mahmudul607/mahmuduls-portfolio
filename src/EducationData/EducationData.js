@@ -7,7 +7,7 @@ export var EducationData = [{
     "session": "2015-2019",
     "subject": "Computer Science & Technology",
     "institute": "Kurigram Polytechnic Institute",
-    "result": "CGPA: 3.21 (Out of 4.00)"
+    "result": "CGPA: 3.22 (Out of 4.00)"
   },{
     "session": "2020-2024",
     "subject": "B.Sc In CSE",
