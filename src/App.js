@@ -10,7 +10,7 @@ import Passion from './components/Passion/Passion';
 import Resume from './components/Resume/Resume';
 import Portfolio from './components/Portfolio/Portfolio';
 import ColorItem from './Color-item';
-import myPhoto from './images/mh.PNG';
+import myPhoto from './images/pic.jpg';
 import './components/Header/Header.css';
 import { FaPhone } from 'react-icons/fa';
 import headerLogo from './images/mh.PNG'
